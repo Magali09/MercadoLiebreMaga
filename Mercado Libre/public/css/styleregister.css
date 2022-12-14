@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb;
+    font-size: 12PX;
+}
+header nav{
+    font-size: 12px;
+    
+}
+header{
+    background-color:#EAC926 ;
+    display: flex;
+   
+
+}
+ul{
+    display: none;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+    margin-left: 2rem;
+}
+
+header div.input{
+    background-color: #fff ;
+    border:1px solid black;
+    width: 160px;
+    font-weight: bold;
+    margin-left: 2rem;
+    text-align: center;
+    flex-direction: row;
+
+    
+
+}
+header p.compra-en-cuotas{
+    font-weight: bold;
+    
+    text-align: center;
+}
+header ul li{
+    list-style-type: none;
+    
+}
+header ul li a{ /*ofertas-tiendas-etc*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+    margin-right: 0rem;
+   
+}
+div.burguer-menu i{
+    background-color:#1259c3;
+    border-radius: 8px;
+    color: #FFF;
+    display: block;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin: auto;
+    max-width: 50px;
+    text-align: center;
+    width: 100%;
+   
+
+
+}
+.banner{
+    width: 100%;
+    
+}
+/*FOOTER*/
+footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: #ebebeb;
+}
+.fa-credit-card,/*iconos del final*/
+.fa-gift,
+.fa-user-shield{
+    color:#1259c3;
+    font-size: 2em; /*tamaño de los iconos del final*/
+}
+.ultimo{
+    text-align: left;
+    padding-top: 2rem;
+}
+.principal{
+    font-weight: bold;
+    font-size: 20px;
+}
+
