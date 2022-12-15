@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require("path");
 const app = express ();
-const port =3030;
+app.listen(process.env.PORT || 3001, () => console.log("Servidor funcionando"));
 
 app.use(express.static("public"));//nos indica donde estan los archivos publicos y estaticos
 
